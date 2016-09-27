@@ -1,3 +1,18 @@
+;;; insert-sequence-interactive.el --- interactively insert sequence of numbers
+
+;; Copyright (C) 2016 NGK Sternhagen
+
+;; Author: NGK Sternhagen <sternhagen@protonmail.ch>
+;; Version: 0.0.0
+;; Keywords: sequence
+;; URL: https://gitlab.com/skwuent/insert-sequence-interactive
+
+;;; Commentary:
+
+;; prompt the user to give "start" and "end" numbers, then insert a sequence
+;; between these two numbers.
+
+;;;###autoload
 (defun insert-sequence-interactive (n1 n2)
   "insert a sequence of integers with newline chars after each"
   (interactive "nenter starting integer:\nnenter length of sequence:")
