@@ -19,6 +19,6 @@
   ;; "beginning" and "ending" I expect intuitively are different from what the code below
   ;; produces -- change n1 as a temporary workaround.
   (let ((start (- n1 1))
-        (end   (n2)))
+        (end   n2))
     (dotimes (i end)
       (insert (format "%2d\n" (1+ (+ i start)))))))
